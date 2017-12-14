@@ -1,0 +1,15 @@
+package com.tefnut.dev.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+import reactor.core.publisher.Mono;
+
+@RestController
+public class TestController {
+
+    @GetMapping
+    public Mono<String> welccome() {
+        String name = "Billy";
+        return Mono.just(name).map(t -> "Hello World " + t);
+    }
+}
