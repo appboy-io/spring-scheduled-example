@@ -1,21 +1,36 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## ESPORTS PLATFORM BACKEND ##
 
 ### What is this repository for? ###
 
 * Quick summary
+This is the backend for the esports platform
+
 * Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+1.0 for now :)
 
 ### How do I get set up? ###
 
 * Summary of set up
+Pull the project and set it run the spring boot command (mvn spring-boot:run).
+The dependencies should pull down and you're good to go.
+
 * Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+If you receive errors, specifically relating to Http calls. Check the configuration under the
+application.properties file (for mongodb configuration). If that looks correct, then check the ApiConstants
+to update to the latest API key or DB.
+
+# Dependencies
+* Spring 5
+* Spring boot 2
+* MongoDB
+
+# Database configuration
+
+# How to run tests
+
+# Deployment instructions
 
 ### Contribution guidelines ###
 
