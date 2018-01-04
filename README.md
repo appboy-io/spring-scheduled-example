@@ -1,11 +1,11 @@
 # README #
 
-## ESPORTS PLATFORM BACKEND ##
+## Spring Scheduled Example ##
 
 ### What is this repository for? ###
 
 * Quick summary
-This is the backend for the esports platform
+This is the a simple spring example
 
 * Version
 1.0 for now :)
@@ -40,5 +40,4 @@ to update to the latest API key or DB.
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* My website is located at https://human-caching.github.io/
